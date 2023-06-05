@@ -14,7 +14,8 @@ namespace Library
             get { return person; }
             set { person = value; }
         }
-        public ReadOnlyCollection<Node> Children { 
+        public ReadOnlyCollection<Node> Children
+        { 
             get
             {
                 return this.children.AsReadOnly();
