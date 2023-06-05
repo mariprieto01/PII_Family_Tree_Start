@@ -24,13 +24,6 @@ namespace Program
             n3.AddChildren(n6);
             n3.AddChildren(n7);
 
-            /*
-            AgeSumVisitor ageSumVisitor = new AgeSumVisitor();
-            n1.Accept(ageSumVisitor);
-            int totalAge = ageSumVisitor.TotalAge;
-            Console.WriteLine("Suma de edades: " + totalAge);
-            */
-
             // visitar el árbol aquí
         }
     }
