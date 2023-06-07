@@ -54,7 +54,7 @@ namespace Program
             int oldestChild = oldestChildVisitor.GetOldestAge();
             Console.WriteLine($"El hijo más grande tiene {oldestChild} años.");
 
-            // crear visitador de NombreMasLargo
+            // crear visitador de LongestNameVisitor
             LongestNameVisitor longestNameVisitor = new LongestNameVisitor();
 
             // visitar el arbol y determinar el nombre más largo
